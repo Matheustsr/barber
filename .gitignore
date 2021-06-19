@@ -1,2 +1,5 @@
 node_modules/
+backend/node_modules/
+backend/node_modules/
+mobile/node_modules/
 src/app/config/*.js
