@@ -1,7 +1,7 @@
 ## :page_with_curl: Sobre
 Este repositório contém um API REST em Node.js como back-end, uma aplicação em ReactJS como front-end e um app mobile em React Native, todos utilizando TypeScript.
 
-Essa é a aplicação GoBarber, que é uma plataforma de agendamento de serviços para proprietários de barbearias ou salões de beleza. Nessa aplicação o usuário consegue ter acesso a todos os prostadores de serviços cadastrados através de um aplicativo mobile, com isso usuário consegue escolher um prestador para marcar seu agendamento.
+Essa é a aplicação para barbearias, que é uma plataforma de agendamento de serviços para proprietários de barbearias ou salões de beleza. Nessa aplicação o usuário consegue ter acesso a todos os prostadores de serviços cadastrados através de um aplicativo mobile, com isso usuário consegue escolher um prestador para marcar seu agendamento.
 
 Já o prestador de serviço, através de um interface Web, consegue ter acesso a todos os seus horários, podendo ver todos os que estão ocupados quanto os que estão disponíveis.
 
@@ -20,10 +20,10 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 ## :rocket: Começando
 ``` bash
   # Clonar o projeto:
-  $ git clone https://github.com/MatheusPires99/gobarber-2.0 gobarber
+  $ git clone https://github.com/Matheustsr/barber 
 
   # Entrar no diretório:
-  $ cd gobarber
+  $ cd barber
 ```
 
 ## :gear: Iniciando back-end
