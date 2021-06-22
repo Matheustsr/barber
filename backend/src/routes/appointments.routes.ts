@@ -15,18 +15,7 @@ appointmentsRouter.post('/', (req, res) => {
 
   const { provider, date } = req.body;
 
-  const parsedDate = startOfHour(parseISO(date));
-
-  const findAppointmentInSameDate = appointmentsRepository.findByDate(parsedDate,);
-
-    if(findAppointmentInSameDate){
-      return res.status(400).json({"error": "Date already been taken!!"})
-    }
-
-    const appointment = appointmentsRepository.create({
-      provider,
-      date: parsedDate,
-    });
+  const parsedDate = parseISO(date);
 
   return res.json(appointment)
 
