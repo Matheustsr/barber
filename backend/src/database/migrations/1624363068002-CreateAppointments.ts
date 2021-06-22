@@ -12,9 +12,10 @@ export class CreateAppointments1624363068002 implements MigrationInterface {
               type: 'varchar',
               isPrimary: true,
               generationStrategy: 'uuid',
+              default: 'uuid_generate_v4()',
             },
             {
-              name: 'provide',
+              name: 'provider',
               type: 'varchar',
               isNullable: false,
             },
